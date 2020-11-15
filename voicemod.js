@@ -53,7 +53,7 @@ client.on('message', async msg => {
             .map(result => result.alternatives[0].transcript)
             .join('\n')
             .toLowerCase()
-            for (i of ['fuck', 'shit', 'bitch', 'poop', 'penis']) {
+            for (i of [########]) {       //add words you want to be caught in list
                 if (transcription.includes(i)) {
                     console.log('badwrd')
                     connection.play("badword.mp3", {volume: 100})
