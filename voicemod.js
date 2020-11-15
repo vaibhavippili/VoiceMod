@@ -71,4 +71,4 @@ client.on('message', async msg => {
 })
 
 
-client.login("########")
+client.login("########")      //add google auth token
